@@ -1,0 +1,18 @@
+header {
+	height: 200px;
+	border: 2px solid $black;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+nav {
+	ul {
+		margin: 2rem;
+		li {
+			font-size: $font-size-base * 1.5;
+			display: inline;
+			padding: 1rem 2rem;
+		}
+	}
+}

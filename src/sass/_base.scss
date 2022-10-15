@@ -1,0 +1,47 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding:0;
+   box-sizing: border-box;
+}
+html {
+	font-size: $font-size-base;
+	background-color: $color-background;
+}
+body {
+	background-color: transparent;
+	font-size: $font-size-body;
+	font-family: $font-family-main;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: $color-font-primary;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: $color-font-secondary;
+	font-family: $font-family-headings;
+}
+h1 {
+	font-size: 4rem;
+	margin-bottom: 1rem;
+}
+h2 {
+	font-size: 3.25rem;
+	line-height: 3.5rem;
+	margin-top: 1rem;
+	margin-bottom: .5rem;
+}
+h3 {
+	font-size: 2rem;
+	margin-bottom: .5rem;
+	margin-top: 1.8rem;
+}
+h4 {
+	font-size: 1.5rem;
+	margin-bottom: .5rem;
+}
+p {
+	font-size: $font-size-body;
+	line-height: $line-height-base;
+	padding: 1rem 0;
+}

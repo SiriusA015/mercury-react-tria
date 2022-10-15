@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;0,800;1,300;1,600;1,800&display=swap');
+
+// Fonts
+$font-family-main: 'Open Sans', sans-serif;
+$font-family-headings: 'Open Sans', sans-serif;
+$line-height-base: 2.2rem;
+$font-size-base: 10px;
+$font-size-body: 1.4rem;
+
+// Color Palette
+$white:		#f5f5ff;
+$darkblue:	#022933;
+$yellow:		#FFBA00;
+$blue:		#05408d;
+$green:		#548C27;
+$orange:		#F39856;
+$red:			#D14348;
+$purple:		#6D73C2;
+$black:		#131313;
+
+$color-primary: 			$red;
+$color-secondary: 		$blue;
+$color-background: 		$white;
+$color-font-primary: 	$black;
+$color-font-secondary:	$blue;
+
+// To make writing Media Queries easier once styling begins
+
+// Breakpoints
+$bp-small: 768px; 
+$bp-medium: 1024px; 
+$bp-large: 1366px;
+$bp-xlarge: 1920px;
+$bp-xxlarge: 2560px;
+
+// Media Queries
+$mq-small: "(min-width: #{$bp-small})";
+$mq-medium: "(min-width: #{$bp-medium})";
+$mq-large: "(min-width: #{$bp-large})";
+$mq-xlarge: "(min-width: #{$bp-xlarge})";
+$mq-xxlarge: "(min-width: #{$bp-xxlarge})";
+$mq-retina: "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)";

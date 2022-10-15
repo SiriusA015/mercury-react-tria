@@ -1,0 +1,19 @@
+Note:
+-this is an info list so you know what dependancies are already installed in node_modules and available to use
+-you do NOT need to add these dependances on your machine, they are already in node_modules now
+-if you add any dependancies to your branch, please add to this list for the sake of being informed
+-if any of them throw an error, let me know, but you can probably just try doing another yarn add or yarn upgrade
+
+react-router
+	--yarn add react-router
+	--we will be using HashRouter, only needs imported on App.js and is done
+react-router-dom
+	--yarn add react-router-dom
+react-icons
+	--yarn add react-icons
+	--see react icons website for how to use
+uuid
+	--import { v4 as uuid } from 'uuid';
+sass
+	--sass is a global install, not a dependancy, so if you do not have sass, install using yarn
+	--the command to start sass is: `sass --watch <path-to>/src/sass/style.scss <path-to>/src/style.css`

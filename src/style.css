@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;0,800;1,300;1,600;1,800&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  background-color: #f5f5ff;
+}
+
+body {
+  background-color: transparent;
+  font-size: 1.4rem;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #131313;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #05408d;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 3.25rem;
+  line-height: 3.5rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  margin-top: 1.8rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  padding: 1rem 0;
+}
+
+a, a:visited {
+  color: #D14348;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #05408d;
+}
+
+.light {
+  font-weight: lighter;
+}
+
+.heavy {
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+
+.loading {
+  /* to use in your component file, use `import loading from '<path-to->/images/loading.gif', then in img tag src={loading}  */
+  width: 35px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.center {
+  /* this will hard center a block element in the viewport on both axis */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+header {
+  height: 200px;
+  border: 2px solid #131313;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+nav ul {
+  margin: 2rem;
+}
+nav ul li {
+  font-size: 15px;
+  display: inline;
+  padding: 1rem 2rem;
+}
+
+/*# sourceMappingURL=style.css.map */
